@@ -245,7 +245,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #726099;
 }
 
 .mobile-nav-active {
@@ -379,13 +379,15 @@ h6 {
 }
 
 #hero legend {
-  color: #eef7ff;
+  color: #d7dce1;
 }
 
 #hero legend a{
-  color: #eef7ff;
+  color:#d7dce1;
   text-decoration-line: underline;
 }
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -781,10 +783,6 @@ section {
   .all-info {
     flex-direction: column;
     margin-right: -700px;
-  }
-
-  .bi {
-    color: #726099;
   }
 
 }
