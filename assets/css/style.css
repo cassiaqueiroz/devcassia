@@ -271,7 +271,7 @@ h6 {
     url('../img/hero-bg.jpg') top right 70%/cover;
   background-size: cover;
   position: relative;
-  
+
 }
 
 
@@ -309,7 +309,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -359,7 +359,7 @@ h6 {
   color: #726099;
 }
 
-@media (max-width: 1024px) and (max-height: 1368px) {
+@media (max-width: 1023px) and (max-height: 1368px) {
   #hero {
     text-align: center;
   }
@@ -367,7 +367,7 @@ h6 {
   #hero h1 {
     font-size: 30px;
     line-height: 28px;
-    margin-top: 80px;
+    margin-top: 30px;
 
   }
 
@@ -376,6 +376,15 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+}
+
+#hero legend {
+  color: #eef7ff;
+}
+
+#hero legend a{
+  color: #eef7ff;
+  text-decoration-line: underline;
 }
 
 /*--------------------------------------------------------------
@@ -761,14 +770,21 @@ section {
 
 }
 
-.all-info { 
+.all-info {
   display: flex;
+  flex-direction: row;
+
 }
 
 
 @media (max-width: 1280px) {
   .all-info {
-flex-direction: column;
+    flex-direction: column;
+    margin-right: -700px;
+  }
+
+  .bi {
+    color: #726099;
   }
 
 }
