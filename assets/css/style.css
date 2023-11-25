@@ -365,7 +365,7 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 28px;
     margin-top: 30px;
 
@@ -850,6 +850,13 @@ section {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0 0 2px 0;
+}
+
+@media (max-width: 1280px) {
+  #footer h3 {
+    font-size: 30px;
+
+  }
 }
 
 #footer p {
