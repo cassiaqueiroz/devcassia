@@ -475,7 +475,7 @@ section {
 
 @media (max-width: 1280px) {
   .col-lg-2 {
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
   }
 }
@@ -845,7 +845,7 @@ section {
 
 #footer h3 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
