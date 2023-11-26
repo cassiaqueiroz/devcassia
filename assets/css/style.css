@@ -242,6 +242,8 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
+  opacity: 0.5;
+  color: #726099;
 }
 
 .mobile-nav-toggle i {
