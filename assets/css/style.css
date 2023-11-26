@@ -845,7 +845,19 @@ section {
 
 #footer .container {
   align-items: center;
-  margin-right: 9px;
+  margin-right: 35px;
+}
+
+@media (max-width: 1280px) {
+  #footer .container {
+    margin: auto;
+  }
+}
+
+@media (min-width: 3000px) {
+  #footer .container {
+    margin: auto;
+  }
 }
 
 #footer .social-links {
