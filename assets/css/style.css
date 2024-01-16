@@ -394,11 +394,11 @@ h6 {
 }
 
 #hero legend {
-  color: #272829;
+  color: #45505b;
 }
 
 #hero legend a {
-  color: #272829;
+  color: #45505b;
   text-decoration-line: underline;
 }
 
@@ -416,7 +416,8 @@ h6 {
 .language-options img {
   width: 100%;
   height: 33px;
-  filter: sepia(40%) grayscale(65%);
+  filter: sepia(40%) grayscale(65%); 
+  ;
 }
 
 
