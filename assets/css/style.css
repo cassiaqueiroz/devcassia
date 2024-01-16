@@ -376,7 +376,9 @@ h6 {
 
   #hero p {
     margin-top: 16px;
-    font-size: 20px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 18px;
     line-height: 24px;
   }
 }
