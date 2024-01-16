@@ -276,6 +276,10 @@ h6 {
 
 }
 
+#hero img {
+  transform: rotate(90deg);
+
+}
 
 #image-owner {
   position: absolute;
@@ -370,7 +374,7 @@ h6 {
   #hero h1 {
     font-size: 36px;
     line-height: 28px;
-    margin-top: 30px;
+    margin-top: 150px;
 
   }
 
