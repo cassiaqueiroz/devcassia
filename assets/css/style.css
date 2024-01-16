@@ -382,8 +382,14 @@ h6 {
     line-height: 24px;
   }
 
+  #hero .social-links {
+    margin-top: 26px;
+
+  }
+
   #hero .social-links a {
     font-size: 18px;
+
   }
 }
 
