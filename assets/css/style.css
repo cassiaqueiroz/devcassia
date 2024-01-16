@@ -428,6 +428,10 @@ h6 {
   .language-options img {
     height: 25px;
   }
+
+  .language-options {
+    text-align: left;
+  }
 }
 
 /*--------------------------------------------------------------
