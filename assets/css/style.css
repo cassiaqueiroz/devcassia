@@ -432,6 +432,13 @@ h6 {
   .language-options {
     text-align: left;
   }
+
+  .language-options li {
+    list-style: none;
+    display: inline-table;
+    margin-left: 0;
+  }
+  
 }
 
 /*--------------------------------------------------------------
