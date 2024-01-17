@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #726099;
+  color: rgb(169, 153, 226);;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(136, 123, 193, 0.8);
+  color: rgba(169, 153, 226, 0.8);
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgba(136, 123, 193, 0.9);
+  background: rgba(169, 153, 226, 0.9);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -44,13 +44,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #272829;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: rgba(136, 123, 193, 0.6);
-  color: #fff;
+  background: rgba(169, 153, 226, 0.6);
+  color: ##272829;
 }
 
 .back-to-top.active {
@@ -77,7 +77,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #726099;
+  border: 6px solid rgb(169, 153, 226);;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -171,7 +171,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #272829;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -192,7 +192,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #272829;
 }
 
 @media (min-width: 992px) {
@@ -205,7 +205,7 @@ h6 {
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
-    color: #fff;
+    color: #272829;
   }
 }
 
@@ -213,21 +213,21 @@ h6 {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color: #fff;
-  background: rgba(136, 123, 193, 0.85);
+  color: #272829;
+  background: rgba(169, 153, 226, 0.85);
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #fff;
+  color: #272829;
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover>a {
   width: 100%;
-  color: #fff;
+  color: #272829;
 }
 
 .nav-menu a:hover span,
@@ -253,11 +253,11 @@ h6 {
   border-radius: 50px;
   padding: 5px;
   opacity: 0.75;
-  color: #726099;
+  color: rgb(169, 153, 226);;
 }
 
 .mobile-nav-toggle i {
-  color: #726099;
+  color: rgb(169, 153, 226);;
 }
 
 .mobile-nav-active {
@@ -270,7 +270,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #726099;
+  background-color: rgb(169, 153, 226);;
 }
 
 /*--------------------------------------------------------------
@@ -334,12 +334,12 @@ h6 {
   font-size: 60px;
   font-weight: 600;
   line-height: 56px;
-  color: #45505b;
+  color: #272829;
   text-align: top left;
 }
 
 #hero p {
-  color: #45505b;
+  color: #272829;
   margin: 20px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -347,8 +347,8 @@ h6 {
 }
 
 #hero p span {
-  color: #726099;
-  letter-spacing: 1px;
+  color: #272829;
+    letter-spacing: 1px;
 }
 
 #hero .social-links {
@@ -360,7 +360,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #272829;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -368,7 +368,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #726099;
+  color: rgb(169, 153, 226);;
 }
 
 @media (max-width: 1023px) and (max-height: 1368px) {
@@ -482,7 +482,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #726099;
+  background: rgb(169, 153, 226);;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -518,7 +518,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #726099;
+  color: rgb(169, 153, 226);
   line-height: 0;
 }
 
@@ -566,7 +566,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: rgba(136, 123, 193, 0.8);
+  background-color: rgba(169, 153, 226, 0.8);
   border-radius: 3px;
 }
 
@@ -584,7 +584,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #726099;
+  border-left: 2px solid rgb(169, 153, 226);
   position: relative;
 }
 
@@ -594,13 +594,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #726099;
+  color: rgb(169, 153, 226);;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(136, 123, 193, 0.1);
+  background: rgba(169, 153, 226, 0.1);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -629,7 +629,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #726099;
+  border: 2px solid rgb(169, 153, 226);
 }
 
 /*--------------------------------------------------------------
@@ -707,7 +707,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: rgba(136, 123, 193, 0.8);
+  color: rgba(169, 153, 226, 0.8);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -768,11 +768,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #726099;
+  color: rgb(169, 153, 226);;
   float: left;
   width: 44px;
   height: 44px;
-  background: rgba(136, 123, 193, 0.1);
+  background: rgba(169, 153, 226, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -799,8 +799,8 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: rgba(136, 123, 193, 0.85);
-  color: #fff;
+  background: rgba(169, 153, 226, 0.85);
+  color: #272829;
 }
 
 
@@ -808,8 +808,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgba(136, 123, 193, 0.1));
-  color: #45505b;
+  background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgba(169, 153, 226, 0.1));
+  color: #272829;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -864,8 +864,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(136, 123, 193, 0.85);
-  color: #fff;
+  background: rgba(169, 153, 226, 0.85);
+  color: #272829;
   line-height: 1;
   padding: 9px 0;
   margin-right: 10px;
@@ -877,8 +877,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: rgba(136, 123, 193, 0.6);
-  color: #fff;
+  background: rgba(169, 153, 226, 0.6);
+  color: #272829;
   text-decoration: none;
 }
 
