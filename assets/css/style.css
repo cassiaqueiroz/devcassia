@@ -155,6 +155,7 @@ h6 {
 .nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
+  
 }
 
 .nav-menu a,
@@ -426,7 +427,7 @@ h6 {
   }
 
   .language-options li {
-    margin: 1px;
+    margin: 3px;
   }
 
 }
