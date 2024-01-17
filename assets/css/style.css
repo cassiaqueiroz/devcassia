@@ -350,6 +350,7 @@ h6 {
   color: #272829;
   border-bottom: 2px solid rgb(169, 153, 226); 
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 #hero .social-links {
