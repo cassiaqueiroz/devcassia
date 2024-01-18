@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: rgb(169, 153, 226);;
+  color: rgb(169, 153, 226);
   text-decoration: none;
 }
 
@@ -864,14 +864,13 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
-  background: rgba(169, 153, 226, 0.85);
+  background: none;
   color: #272829;
   line-height: 1;
-  padding: 9px 0;
+  padding: 0;
   margin-right: 10px;
-  border-radius: 50%;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -879,8 +878,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: rgba(169, 153, 226, 0.5);
-  color: #272829;
+  color: rgb(169, 153, 226);
   text-decoration: none;
 }
 
@@ -890,4 +888,8 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.copy {
+  background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgba(169, 153, 226, 0.1));
 }
