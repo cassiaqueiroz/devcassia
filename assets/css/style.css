@@ -840,6 +840,12 @@ section {
   align-content: center;
   align-self: center;
 }
+hr {
+  color: rgba(169, 153, 226, 0.55); 
+  border-width: 2px;
+  width: 70%;
+  margin: 0 auto;
+}
 
 #footer h3 {
   font-size: 34px;
