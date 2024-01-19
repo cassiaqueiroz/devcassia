@@ -777,9 +777,8 @@ section {
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-inline: 0;
+  margin-inline: 50px;
 }
-
 
 @media (max-width: 1280px) {
   .all-info {
