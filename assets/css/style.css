@@ -149,8 +149,12 @@ h6 {
 
   #logo img {
     margin-left: 0;
+    width: 28px;
+    height: auto;
+    
   }
 }
+
 
 .nav-menu {
   padding: 0;
@@ -420,11 +424,12 @@ h6 {
 
 #hero legend a {
   color: #45505b;
-  text-decoration-line: underline;
+ 
 }
 
 .language-options {
   text-align: right;
+  font-size: 12px;
 }
 
 .language-options li {
