@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: rgb(169, 153, 226);
+  color: #272829);
   text-decoration: none;
 }
 
@@ -838,7 +838,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgba(169, 153, 226, 0.1));
+  background: url('../img/hero-bg.jpg');
   color: #272829;
   font-size: 14px;
   text-align: center;
@@ -846,12 +846,31 @@ section {
   align-items: center;
   align-content: center;
   align-self: center;
+  position: relative; 
 }
 
+@media (max-width: 1280px) {
+  #footer {
+    background:
+    url('../img/hero-bg.jpg') bottom left 70%/cover;
+  }
+}
+
+#footer:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
 hr {
-  color: rgba(169, 153, 226, 0.55);
-  border-width: 2px;
-  width: 70%;
+  color: #728394;
+  border-width: 1px;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -867,6 +886,7 @@ hr {
 @media (max-width: 1280px) {
   #footer h3 {
     font-size: 28px;
+    position: relative;
 
   }
 }
@@ -876,26 +896,36 @@ hr {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
+  position: relative;
+
 }
 
 #footer .container {
   align-items: center;
+  position: relative;
+
 }
 
 @media (max-width: 1280px) {
   #footer .container {
     margin: auto;
+    position: relative;
+
   }
 }
 
 @media (min-width: 3000px) {
   #footer .container {
     margin: auto;
+    position: relative;
+
   }
 }
 
 #footer .social-links {
   margin: -20px 0 30px 0;
+  position: relative;
+
 }
 
 #footer .social-links a {
@@ -910,22 +940,33 @@ hr {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  position: relative;
+
 }
 
 #footer .social-links a:hover {
   color: rgb(169, 153, 226);
   text-decoration: none;
+  position: relative;
+
 }
 
 #footer .copyright {
   margin: 0 0 5px 0;
   margin-top: -10px;
+  position: relative;
+
 }
 
 #footer .credits {
   font-size: 13px;
+  position: relative;
+
+
 }
 
 .copy {
   background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgba(169, 153, 226, 0.1));
+  position: relative;
+
 }
