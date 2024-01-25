@@ -866,14 +866,6 @@ section {
   right: 0;
 }
 
-
-hr {
-  color: #728394;
-  border-width: 1px;
-  width: 50%;
-  margin: 0 auto;
-}
-
 #footer h3 {
   font-size: 34px;
   font-weight: 600;
@@ -953,13 +945,13 @@ hr {
 
 #footer .copyright {
   margin: 0 0 5px 0;
-  margin-top: -10px;
   position: relative;
 
 }
 
 #footer .credits {
   font-size: 13px;
+  margin-bottom: -8px;
   position: relative;
 
 
