@@ -946,12 +946,13 @@ section {
 #footer .copyright {
   margin: 0 0 5px 0;
   position: relative;
+  font-size: 11px;
 
 }
 
 #footer .credits {
-  font-size: 13px;
-  margin-bottom: -8px;
+  font-size: 11px;
+  margin-bottom: 0;
   position: relative;
 
 
