@@ -25,6 +25,18 @@ h6 {
   font-family: "Red Hat Display", sans-serif;
 }
 
+.section-title span {
+  position: absolute;
+  color: #eef0f2;
+  left: 0px;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 41px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -482,6 +494,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #45505b;
+  z-index: 2;
 
 }
 
@@ -594,6 +607,8 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
