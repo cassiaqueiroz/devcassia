@@ -674,7 +674,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -858,7 +858,7 @@ section {
 
 #footer:before {
   content: "";
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.83);
   position: absolute;
   bottom: 0;
   top: 0;
