@@ -230,13 +230,12 @@ h6 {
   }
 }
 
-.nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #272829;
   background: none;
-  border: 1px solid rgba(169, 153, 226, 0.85);
+  font-weight: 900;
 }
 
 .nav-menu a:hover span,
