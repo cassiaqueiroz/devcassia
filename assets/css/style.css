@@ -231,8 +231,7 @@ h6 {
 }
 
 .nav-menu .active,
-.nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu .active:focus {
   color: #272829;
   background: none;
   font-weight: 900;
