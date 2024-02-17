@@ -194,7 +194,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.1);
+  background: none;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -217,7 +217,7 @@ h6 {
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
-    border: 1px solid rgba(169, 153, 226, 0.85);
+    border: 1px solid rgba(169, 153, 226, 0.03);
 
   }
 
@@ -234,7 +234,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #272829;
-  background: rgba(255, 255, 255, 0.1);
+  background: none;
   border: 1px solid rgba(169, 153, 226, 0.85);
 }
 
@@ -831,6 +831,8 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(169, 153, 226, 0.03);
+
 }
 
 .contact .info h4 {
