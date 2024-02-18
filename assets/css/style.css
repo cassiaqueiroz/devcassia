@@ -304,6 +304,8 @@ h6 {
 .mobile-nav-active .mobile-nav-toggle {
   color: black;
   border: 2px solid rgba(169, 153, 226, 0.85);
+  transition: all 0.1s ease-in-out;
+
 }
 
 
