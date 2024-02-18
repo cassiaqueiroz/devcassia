@@ -240,7 +240,7 @@ h6 {
 .nav-menu .active:focus {
   color: #272829;
   background: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 15px;
 }
 
@@ -410,7 +410,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 @media (max-width: 1023px) and (max-height: 1368px) {
@@ -966,7 +966,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   text-decoration: none;
   position: relative;
 
