@@ -385,7 +385,7 @@ h6 {
 
 #hero p span {
   color: #272829;
-  border-bottom: 2px solid rgb(169, 153, 226);
+  border-bottom: 2.5px solid rgb(169, 153, 226);
   letter-spacing: 1px;
   line-height: 1.5;
 }
@@ -407,7 +407,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: rgb(169, 153, 226);
+  transform: scale(1.2);
 }
 
 @media (max-width: 1023px) and (max-height: 1368px) {
@@ -963,7 +963,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  color: rgb(169, 153, 226);
+  transform: scale(1.2);
   text-decoration: none;
   position: relative;
 
@@ -989,3 +989,4 @@ section {
   position: relative;
 
 }
+
