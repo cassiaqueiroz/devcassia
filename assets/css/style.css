@@ -155,8 +155,8 @@ h6 {
 */
 
 #logo img {
-  margin-left: -85px;
-  width: 35px;
+  margin-left: -83px;
+  width: 30px;
 }
 
 @media (max-width: 1023px) and (max-height: 1368px) {
@@ -186,15 +186,13 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu a,
-.nav-menu a:focus {
+.nav-menu a {
   display: flex;
   align-items: center;
   color: #272829;
   padding: 9px 17px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
   border-radius: 50px;
   background: none;
   height: 56px;
@@ -203,16 +201,21 @@ h6 {
   transition: 0.3s;
 }
 
-.nav-menu a i
-{
-  font-size: 20px;
+.nav-menu a:hover {
+  transform: scale(1.04);
+
+}
+
+.nav-menu a i {
+  font-size: 21px;
 }
 
 .nav-menu a:hover i,
 .nav-menu-active {
   font-size: 24px;
-  
+
 }
+
 
 .nav-menu a span,
 .nav-menu a:focus span {
@@ -237,8 +240,7 @@ h6 {
   }
 }
 
-.nav-menu .active,
-.nav-menu .active:focus {
+.nav-menu .active {
   color: #272829;
   background: none;
   font-weight: 700;
@@ -277,8 +279,7 @@ h6 {
 
 .mobile-nav-toggle,
 .mobile-nav-toggle:hover,
-.mobile-nav-active .mobile-nav-toggle
- {
+.mobile-nav-active .mobile-nav-toggle {
   position: fixed;
   right: 10px;
   top: 10px;
@@ -402,7 +403,7 @@ h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 20px;
   display: inline-block;
   color: #272829;
   line-height: 1;
@@ -412,7 +413,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  transform: scale(1.15);
+  transform: scale(1.185);
 }
 
 @media (max-width: 1023px) and (max-height: 1368px) {
@@ -458,7 +459,7 @@ h6 {
 .language-options {
   text-align: right;
   font-size: 12px;
-  margin-right: -85px;
+  margin-right: -88px;
 }
 
 .language-options li {
@@ -916,8 +917,7 @@ section {
 }
 
 #footer p {
-  font-size: 15;
-  font-style: italic;
+  font-size: 16px;
   padding: 0;
   margin: 0 0 40px 0;
   position: relative;
@@ -947,19 +947,19 @@ section {
 }
 
 #footer .social-links {
-  margin: -20px 0 30px 0;
+  margin: -28px 0 30px 0;
   position: relative;
 
 }
 
 #footer .social-links a {
-  font-size: 20px;
+  font-size: 16.2px;
   display: inline-block;
   background: none;
   color: #272829;
   line-height: 1;
   padding: 0;
-  margin-right: 1px;
+  margin-right: -1.5px;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -995,4 +995,3 @@ section {
   position: relative;
 
 }
-
