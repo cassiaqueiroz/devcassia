@@ -364,7 +364,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -871,7 +871,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url('../img/hero-bg.jpg');
+  background: url('../img/hero-bg.jpg') bottom left 70%/cover;
   color: #272829;
   font-size: 14px;
   text-align: center;
@@ -891,7 +891,7 @@ section {
 
 #footer:before {
   content: "";
-  background: rgba(255, 255, 255, 0.62);
+  background: rgba(255, 255, 255, 0.75);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -985,7 +985,7 @@ section {
 
 #footer .credits {
   font-size: 11px;
-  margin-bottom: 0;
+  margin-bottom: -5px;
   position: relative;
 
 
