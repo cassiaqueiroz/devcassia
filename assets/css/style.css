@@ -351,7 +351,7 @@ h6 {
 @media (max-width: 1280px) {
   #hero {
     background:
-      url('../img/hero-bg.jpg') bottom right 80%/cover;
+      url('../img/hero-bg.jpg') bottom right 95%/cover;
 
   }
 }
