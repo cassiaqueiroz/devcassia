@@ -171,6 +171,12 @@ h2 {
     height: auto;
 
   }
+
+  #header .nav-menu * {
+    color: black;
+  }
+
+
 }
 
 
@@ -184,6 +190,7 @@ h2 {
   padding: 0;
   list-style: none;
 }
+
 
 .nav-menu>ul>li {
   position: relative;
@@ -276,8 +283,7 @@ h2 {
 
 @media (max-width: 1023px) and (max-height: 1368px) {
   #header {
-    background-color: #ffffff;
-    opacity: 0.95;
+    background-color: rgba(255, 255, 255, 0.97);
   }
 }
 
@@ -299,7 +305,7 @@ h2 {
 }
 
 .mobile-nav-toggle i {
-  color: rgb(169, 153, 226);
+  color: black;
 }
 
 .mobile-nav-active {
@@ -331,7 +337,7 @@ h2 {
 }
 
 .navbar-expand-lg {
-  opacity: 0.95;
+  opacity: 0.97;
 }
 
 #image-owner {
@@ -452,11 +458,11 @@ h2 {
 }
 
 #hero legend {
-  color: #45505b;
+  color: rgb(148, 148, 148);
 }
 
 #hero legend a {
-  color: #45505b;
+  color: rgb(158, 158, 158);
 
 }
 
@@ -864,7 +870,7 @@ section {
 .contact .info .email i,
 .contact .info .address i,
 .contact .info .phone i {
-  border: 1px solid rgb(169, 153, 226);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .contact .info .email:hover i,
@@ -878,7 +884,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background-color: #262626;
+
+  width: 100%;
+  background:
+    url('../img/hero-bg.jpg') 70%/cover;
+  background-size: cover;
   color: #afa7e0;
   font-size: 14px;
   text-align: center;
@@ -887,7 +897,16 @@ section {
   align-content: center;
   align-self: center;
   position: relative;
+}
 
+#footer:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #footer h3 {
