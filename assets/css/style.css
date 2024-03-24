@@ -17,12 +17,16 @@ a:hover {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h2 {
   font-family: "Comfortaa", sans-serif;
+
 }
 
 .section-title span {
@@ -880,6 +884,8 @@ section {
   align-content: center;
   align-self: center;
   position: relative;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+
 }
 
 @media (max-width: 1280px) {
