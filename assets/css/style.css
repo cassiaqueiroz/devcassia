@@ -60,14 +60,14 @@ h2 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #272829;
+  color: rgb(169, 153, 226);
   line-height: 0;
 }
 
 .back-to-top:hover,
 .back-to-top:focus {
   background: none;
-  border: 1px solid #272829;
+  border: 1px solid rgb(169, 153, 226);
 }
 
 .back-to-top.active {
@@ -193,7 +193,7 @@ h2 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #272829;
+  color: rgb(169, 153, 226);
   padding: 9px 17px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -224,7 +224,7 @@ h2 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #272829;
+  color: rgb(169, 153, 226);
 }
 
 @media (min-width: 992px) {
@@ -239,13 +239,13 @@ h2 {
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
-    color: #272829;
+    color: rgb(169, 153, 226);
 
   }
 }
 
 .nav-menu .active {
-  color: #272829;
+  color: rgb(169, 153, 226);
   background: none;
   font-weight: 700;
   font-size: 15px;
@@ -256,13 +256,13 @@ h2 {
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #272829;
+  color: rgb(169, 153, 226);
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover>a {
   width: 100%;
-  color: #272829;
+  color: rgb(169, 153, 226);
 }
 
 .nav-menu a:hover span,
@@ -331,7 +331,7 @@ h2 {
 }
 
 .navbar-expand-lg {
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 #image-owner {
@@ -368,7 +368,7 @@ h2 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -381,12 +381,12 @@ h2 {
   font-size: 60px;
   font-weight: 600;
   line-height: 56px;
-  color: #272829;
+  color: rgb(169, 153, 226);
   text-align: top left;
 }
 
 #hero p {
-  color: #272829;
+  color: rgb(169, 153, 226);
   margin: 20px 0 0 0;
   font-size: 26px;
   font-family: "Red Hat Display", sans-serif;
@@ -394,8 +394,8 @@ h2 {
 }
 
 #hero p span {
-  color: #272829;
-  border-bottom: 1px solid #272829;
+  color: rgb(169, 153, 226);
+  border-bottom: 1px solid rgb(169, 153, 226);
   letter-spacing: 1px;
   line-height: 1.5;
 }
@@ -409,7 +409,7 @@ h2 {
 #hero .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: #272829;
+  color: rgb(169, 153, 226);
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -865,9 +865,12 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .info .email:focus i,
+.contact .info .address:focus i,
 .contact .info .phone:hover i {
   background: none;
-  border: 1px solid #272829;
+  border: 1px solid rgb(169, 153, 226);
 }
 
 
@@ -875,8 +878,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background-color: rgb(0, 0, 0);
-  color: rgb(169, 153, 226);
+  background-color: #262626;
+  color: #afa7e0;
   font-size: 14px;
   text-align: center;
   padding: 40px 0;
@@ -884,7 +887,6 @@ section {
   align-content: center;
   align-self: center;
   position: relative;
-  box-shadow: 0px 0px 1px 2px rgba(169, 153, 226, 0.5);
 
 }
 
@@ -987,7 +989,7 @@ section {
 }
 
 .copy {
-  background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgba(169, 153, 226, 0.1));
+  background: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.95), rgb(169, 153, 226));
   position: relative;
 
 }
