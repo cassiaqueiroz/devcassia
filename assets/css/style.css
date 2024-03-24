@@ -632,7 +632,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-
+#resume {
+  background-color: rgba(169, 153, 226, 0.07) ;
+  box-shadow: 2px 0 2px 0 rgba(169, 153, 226, 0.8);
+}
 
 .resume .resume-title {
   font-size: 26px;
@@ -686,11 +689,11 @@ section {
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
+  border-radius: 50%;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid rgb(169, 153, 226);
+  background: rgba(169, 153, 226, 0.7);
+  border: 2px solid rgba(169, 153, 226, 0.7);
 }
 
 /*--------------------------------------------------------------
