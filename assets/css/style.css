@@ -541,7 +541,6 @@ section {
   width: 40px;
   height: 3px;
   background: rgb(169, 153, 226);
-  ;
   bottom: 0;
   left: calc(50% - 20px);
 }
