@@ -39,6 +39,8 @@ h2 {
   font-size: 41px;
   text-transform: uppercase;
   line-height: 0;
+  font-family: "Comfortaa", sans-serif;
+
 }
 
 /*--------------------------------------------------------------
@@ -389,6 +391,8 @@ h2 {
   line-height: 56px;
   color: rgb(169, 153, 226);
   text-align: top left;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.15);
+
 }
 
 #hero p {
@@ -397,6 +401,8 @@ h2 {
   font-size: 26px;
   font-family: "Red Hat Display", sans-serif;
   text-align: top left;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+
 }
 
 #hero p span {
@@ -632,7 +638,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 #resume {
-  background-color: rgba(169, 153, 226, 0.05) ;
+  background-color: rgba(169, 153, 226, 0.05);
   box-shadow: 2px 0 2px 0 rgba(169, 153, 226, 0.65);
 }
 
@@ -918,6 +924,8 @@ section {
   padding: 0;
   margin: 0 0 2px 0;
   color: rgb(169, 153, 226);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+
 
 }
 
@@ -939,7 +947,7 @@ section {
   margin: 0 0 40px 0;
   position: relative;
   color: rgb(169, 153, 226);
-
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
 
 }
 
@@ -954,6 +962,11 @@ section {
     margin: auto;
     position: relative;
 
+  }
+
+  #footer:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.45);
   }
 }
 
