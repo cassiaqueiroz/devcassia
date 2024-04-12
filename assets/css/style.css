@@ -264,8 +264,18 @@ h2 {
 
 .nav-menu .active {
   color: rgb(169, 153, 226);
-  border-bottom: 1px solid rgb(169, 153, 226);
   font-size: 15px;
+}
+
+.nav-menu .active:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-left: 4px solid rgba(169, 153, 226, 0.7);
+  left: -3px;
+  top: 30%;
 }
 
 
