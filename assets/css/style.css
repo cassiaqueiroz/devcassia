@@ -151,7 +151,7 @@ h2 {
   #header {
     width: 300px;
     background: #fff;
-    border-right: 1px solid #e6e9ec;
+    border-right: 1px solid rgba(230, 233, 236, 0.2);
     left: -300px;
   }
 }
