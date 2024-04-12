@@ -273,7 +273,7 @@ h2 {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border-left: 4px solid rgba(169, 153, 226, 0.7);
+  border-left: 3px solid rgba(169, 153, 226, 0.7);
   left: -3px;
   top: 29%;
 }
