@@ -144,7 +144,7 @@ h2 {
   transition: all 0.5s;
   padding: 15px;
   overflow-y: auto;
-  
+
 }
 
 @media (max-width: 991px) {
@@ -195,7 +195,7 @@ h2 {
 
 .nav-menu {
   padding: 0;
-  display: block;  
+  display: block;
 }
 
 .nav-menu * {
@@ -253,21 +253,19 @@ h2 {
   .nav-menu a:focus {
     width: 56px;
     border: none;
-
   }
 
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
     color: rgb(169, 153, 226);
-
   }
+
 }
 
 .nav-menu .active {
   color: rgb(169, 153, 226);
-  background: none;
-  font-weight: 700;
+  border: 1px solid rgb(169, 153, 226);
   font-size: 15px;
 }
 
