@@ -186,7 +186,7 @@ h2 {
   }
 
   #header .nav-menu * {
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
   }
 
 
@@ -542,7 +542,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: white;
+  color: whitesmoke;
   z-index: 2;
 
 }
@@ -632,7 +632,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Red Hat Display", sans-serif;
-  color: white;
+  color: whitesmoke;
 
 }
 
@@ -642,7 +642,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: white;
+  background: whitesmoke;
   border-radius: 3px;
 
 }
@@ -668,7 +668,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: white;
+  color: whitesmoke;
 }
 
 .resume .resume-item {
@@ -742,7 +742,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.78);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -789,7 +789,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: white;
+  color: whitesmoke;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -892,7 +892,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: white;
+  color: whitesmoke;
 }
 
 .contact .info p {
