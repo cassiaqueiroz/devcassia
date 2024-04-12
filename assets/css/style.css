@@ -32,7 +32,7 @@ h2 {
 
 .section-title span {
   position: absolute;
-  color: rgba(69, 80, 91, 0.3);
+  color: rgba(69, 80, 91, 0.4);
   left: 0;
   right: 0;
   z-index: 1;
