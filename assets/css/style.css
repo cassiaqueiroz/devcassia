@@ -3,7 +3,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Red Hat Display", sans-serif;
-  color: #272829;
+  color: #ededed;
+  background-color: #15101b;
 }
 
 a {
@@ -31,7 +32,7 @@ h2 {
 
 .section-title span {
   position: absolute;
-  color: #eef0f2;
+  color: rgba(69, 80, 91, 0.3);
   left: 0;
   right: 0;
   z-index: 1;
@@ -40,7 +41,14 @@ h2 {
   text-transform: uppercase;
   line-height: 0;
   font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  margin-right: -82px;
+}
 
+@media (max-width: 991px) {
+  .section-title span {
+    margin: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -136,6 +144,7 @@ h2 {
   transition: all 0.5s;
   padding: 15px;
   overflow-y: auto;
+  
 }
 
 @media (max-width: 991px) {
@@ -162,7 +171,7 @@ h2 {
 
 #logo img {
   margin-left: -83px;
-  width: 32px;
+  width: 36px;
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
 }
@@ -171,13 +180,13 @@ h2 {
 
   #logo img {
     margin-left: 0;
-    width: 28px;
+    width: 36px;
     height: auto;
 
   }
 
   #header .nav-menu * {
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
 
@@ -186,7 +195,7 @@ h2 {
 
 .nav-menu {
   padding: 0;
-  display: block;
+  display: block;  
 }
 
 .nav-menu * {
@@ -287,7 +296,8 @@ h2 {
 
 @media (max-width: 1023px) and (max-height: 1368px) {
   #header {
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgba(0, 0, 0, 0.7);
+
   }
 }
 
@@ -525,7 +535,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: white;
   z-index: 2;
 
 }
@@ -615,7 +625,8 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Red Hat Display", sans-serif;
-  color: #45505b;
+  color: white;
+
 }
 
 .skills .progress .skill .val {
@@ -624,15 +635,17 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: white;
+  border-radius: 3px;
+
 }
 
 .skills .progress-bar {
-  width: 1px;
+  width: 2px;
   height: 10px;
   transition: 0.9s;
-  background-color: rgba(169, 153, 226, 0.8);
-  border-radius: 7px;
+  background-color: rgb(169, 153, 226);
+  border-radius: 3px;
 }
 
 /*--------------------------------------------------------------
@@ -648,7 +661,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: white;
 }
 
 .resume .resume-item {
@@ -722,7 +735,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -751,12 +764,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: black;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: black;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -769,7 +782,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: white;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -777,7 +790,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: rgba(169, 153, 226, 0.8);
+  color: #948872;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -802,6 +815,13 @@ section {
   right: 15px;
 }
 
+.portfolio-info a {
+  color: #15101b;
+}
+
+.portfolio-info a:hover {
+  color: rgb(169, 153, 226);
+}
 
 
 
@@ -865,7 +885,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: white;
 }
 
 .contact .info p {
@@ -878,7 +898,8 @@ section {
 .contact .info .email i,
 .contact .info .address i,
 .contact .info .phone i {
-  border: 1px solid rgb(255, 255, 255);
+  border: none;
+  color: rgb(169, 153, 226);
 }
 
 .contact .info .email:hover i,
@@ -909,7 +930,7 @@ section {
 
 #footer:before {
   content: "";
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.85);
   position: absolute;
   bottom: 0;
   top: 0;
