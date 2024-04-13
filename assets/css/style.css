@@ -728,7 +728,8 @@ section {
   margin-bottom: 5px;
   margin-top: 5px;
   border-radius: 400px;
-
+  height:max-content;
+  width:max-content;
 }
 
 .portfolio .portfolio-wrap {
