@@ -274,7 +274,7 @@ h2 {
   width: 16px;
   height:16px;
   clip-path: polygon(50% 0%, 61% 35%, 100% 50%, 61% 65%, 50% 100%, 39% 65%, 0% 50%, 39% 35%);
-  background-color: rgba(169, 153, 226, 0.7);
+  background-color: rgba(169, 153, 226, 0.75);
   left: -5px;
   top: 39%;
 }
