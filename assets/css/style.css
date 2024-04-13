@@ -32,7 +32,7 @@ h2 {
 
 .section-title span {
   position: absolute;
-  color: rgba(69, 80, 91, 0.4);
+  color: rgba(69, 80, 91, 0.7);
   left: 0;
   right: 0;
   z-index: 1;
@@ -270,12 +270,12 @@ h2 {
 .nav-menu .active:before {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  border-left: 2px solid rgba(169, 153, 226, 0.7);
-  left: -3px;
-  top: 29%;
+  width: 16px;
+  height:16px;
+  clip-path: polygon(50% 0%, 61% 35%, 100% 50%, 61% 65%, 50% 100%, 39% 65%, 0% 50%, 39% 35%);
+  background-color: rgba(169, 153, 226, 0.7);
+  left: -5px;
+  top: 39%;
 }
 
 
@@ -742,7 +742,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -771,12 +771,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: black;
+  color: whitesmoke;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: black;
+  color: whitesmoke;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -823,7 +823,7 @@ section {
 }
 
 .portfolio-info a {
-  color: #15101b;
+  color: whitesmoke;
 }
 
 .portfolio-info a:hover {
