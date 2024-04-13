@@ -66,6 +66,7 @@ h2 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.1s ease-in-out;
+  border: 2px solid transparent;
 }
 
 .back-to-top i {
@@ -77,7 +78,7 @@ h2 {
 .back-to-top:hover,
 .back-to-top:focus {
   background: none;
-  border: 1px solid rgb(169, 153, 226);
+  border: 2px solid rgb(169, 153, 226);
 }
 
 .back-to-top.active {
@@ -339,7 +340,7 @@ h2 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  border: 1px solid rgb(169, 153, 226);
+  border: 2px solid rgb(169, 153, 226);
 
 }
 
@@ -642,7 +643,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: whitesmoke;
+  background: rgba(245, 245, 245, 0.9);
   border-radius: 3px;
 
 }
@@ -906,14 +907,15 @@ section {
 .contact .info .email i,
 .contact .info .address i,
 .contact .info .phone i {
-  border: none;
   color: rgb(169, 153, 226);
+  border: 2px solid transparent;
+
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  border: 1px solid rgb(169, 153, 226);
+  border: 2px solid rgb(169, 153, 226);
 }
 
 
