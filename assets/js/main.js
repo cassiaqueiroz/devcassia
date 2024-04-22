@@ -86,7 +86,7 @@
    */
   on('click', '.mobile-nav-toggle', function(e) {
     select('body').classList.toggle('mobile-nav-active')
-    this.classList.toggle('bi-text-right')
+    this.classList.toggle('bx-menu-alt-right')
     this.classList.toggle('bi-x')
   })
 
