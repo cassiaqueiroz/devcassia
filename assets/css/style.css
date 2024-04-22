@@ -307,8 +307,7 @@ h2 {
 
 .contact .info .address:hover i,
 .contact .info .email:hover i,
-.contact .info .phone:hover i,
-.mobile-nav-active .mobile-nav-toggle {
+.contact .info .phone:hover i {
     border: 2px solid #a999e2;
     padding: 4px;
 }
