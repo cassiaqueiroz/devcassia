@@ -19,14 +19,15 @@
 #hero img {
     width: 6%;
     height: auto;
-    align-items: center;
+    margin-right: 8px;
+    margin-left: -1%;
 }
 
 @media (max-width:991px) {
     #hero img {
         width: 11%;
         height: auto;
-        align-items: center;
+        margin-bottom: 1%;
 
     }
 }
@@ -383,7 +384,7 @@ h2 {
 }
 
 #hero .social-links {
-    margin-top: 30px;
+    margin-top: 3%;
     text-align: top left 50%
 }
 
@@ -469,7 +470,7 @@ h2 {
     }
 
     #hero .social-links {
-        margin-top: 15px
+        margin-top: 7.3%;
     }
 
     #hero .social-links a {
@@ -826,13 +827,14 @@ section {
 }
 
 #footer img {
-    margin-right: 12px
+    margin-right: 8px
 }
 
 #footer p {
     font-size: 14px;
     padding: 0;
-    margin: 0 0 40px;
+    margin-top: 17px;
+    margin-bottom: 20px;
     color: #a999e2
 }
 
