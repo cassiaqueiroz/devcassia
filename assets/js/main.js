@@ -86,8 +86,8 @@
    */
   on('click', '.mobile-nav-toggle', function(e) {
     select('body').classList.toggle('mobile-nav-active')
-    this.classList.toggle('bi-toggle-off')
-    this.classList.toggle('bi-toggle-on')
+    this.classList.toggle('bi-text-right')
+    this.classList.toggle('bi-x')
   })
 
   /**
