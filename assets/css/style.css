@@ -267,7 +267,6 @@ h2 {
     display: block
 }
 
-.mobile-nav-active .mobile-nav-toggle,
 .mobile-nav-toggle {
     position: fixed;
     right: 8px;
@@ -277,9 +276,16 @@ h2 {
     font-size: 26px;
     outline: 0 !important;
     line-height: 0;
-    border-radius: 50px;
     padding: 4px;
-    opacity: .9
+    opacity: .9;
+    border: none;
+}
+
+
+.mobile-nav-active .mobile-nav-toggle {
+    border:2px solid #a999e2;
+    border-radius: 50px;
+
 }
 
 
