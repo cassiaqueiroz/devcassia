@@ -179,15 +179,16 @@ h2 {
 
 @media (min-width:991px) {
     #main {
-        margin-left: 100px
+        margin-left: 100px;
     }
 }
 
 #logo img {
-    margin-left: -83px;
-    width: 36px;
-    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, .2);
-    border-radius: 50%
+    width: 42px;
+    border-radius: 50%;
+    margin-left: -270%;
+    margin-top: 7%;
+
 }
 
 .nav-menu {
@@ -424,9 +425,13 @@ h2 {
         top: 39%
     }
 
-    #hero,
+    #hero {
+        text-align: center;
+    }
+
     .language-options {
-        text-align: center
+        text-align: justify;
+
     }
 
     #logo img,
@@ -436,8 +441,8 @@ h2 {
     }
 
     #logo img {
-        width: 36px;
-        height: auto
+        width: 41px;
+        height: auto;
     }
 
     #header .nav-menu * {
