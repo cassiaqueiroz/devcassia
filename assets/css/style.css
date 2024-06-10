@@ -1114,7 +1114,7 @@ h2 {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 676px) {
   #hero {
     border-bottom: 4px solid #0b0c16;
   }
