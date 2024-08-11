@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Nanum+Gothic&display=swap');
 
 #footer img,
 #hero img {
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 #footer h3,
 #footer p,
@@ -849,7 +849,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 #footer h3,
 #footer p,
