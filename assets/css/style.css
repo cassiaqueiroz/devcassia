@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
 #footer img,
 #hero img {
   margin-right: 0.2vw;
@@ -45,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Didact Gothic", sans-serif;
 }
 #footer h3,
 #footer p,
@@ -847,7 +849,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Didact Gothic", sans-serif;
 }
 #footer h3,
 #footer p,
