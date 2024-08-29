@@ -513,6 +513,7 @@ section {
   color: #a999e2;
   line-height: 0;
 }
+
 /* Estilos para ícones */
 .skill .fab,
 .skill .fas {
@@ -548,6 +549,7 @@ section {
 .skills .progress-bar-wrap {
   background: rgba(245, 245, 245, 0.9);
   border-radius: 3px;
+  overflow: hidden; /* Para garantir que o conteúdo fique dentro das bordas arredondadas */
 }
 
 /* Remove o estilo padrão do elemento progress */
