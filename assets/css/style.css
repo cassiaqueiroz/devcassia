@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap");
 
 html {
   scroll-behavior: smooth;
 }
 
-#footer img,
 #hero img {
   margin-right: 0.2vw;
   margin-left: -1%;
   margin-bottom: 0.1em;
+  width: 1.4em;
+  height: auto;
 }
+
 #header,
 #preloader {
   top: 0;
@@ -25,10 +27,7 @@ html {
 #hero p {
   text-align: top left;
 }
-#hero img {
-  width: 1.4em;
-  height: auto;
-}
+
 #preloader,
 .mobile-nav-active,
 .nav-menu a,
@@ -80,6 +79,7 @@ a:hover {
 h2 {
   font-family: Comfortaa, sans-serif;
 }
+
 .section-title span {
   position: absolute;
   color: rgba(69, 80, 91, 0.45);
@@ -92,6 +92,7 @@ h2 {
   line-height: 0;
   text-align: center;
 }
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -158,6 +159,7 @@ h2 {
   padding: 15px;
   overflow-y: auto;
 }
+
 @media (max-width: 991px) {
   #hero img {
     width: 1.4em;
@@ -306,18 +308,20 @@ h2 {
 
 /* Container principal do hero */
 #hero {
-  position: relative; /* Necessário para o pseudo-elemento ::before */
+  position: relative;
+  box-sizing: border-box;
   width: 100%;
   height: 99vh;
-  background: url("../img/hero-bg.png") top left 90% / cover no-repeat;
+  background: url("../img/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #a999e2;
-  display: flex; 
-  justify-content: left; 
-  align-items: left; 
   text-align: left;
-  overflow: hidden; /* Garante que nada saia da borda do hero */
 }
 
+#hero .container {
+  padding-bottom: 3rem;
+}
 
 /* Sobreposição escura ou clara sobre a imagem de fundo */
 #hero::before {
@@ -327,7 +331,7 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.68);
+  background: rgba(0, 0, 0, 0.73);
   z-index: 0;
 }
 
@@ -337,7 +341,7 @@ h2 {
   font-weight: 500;
   line-height: 56px;
   color: #a999e2;
-  margin: 0; 
+  margin: 0;
 }
 
 /* Estilo do parágrafo */
@@ -446,7 +450,7 @@ h2 {
   #hero h1 {
     font-size: 34px;
     line-height: 28px;
-    margin-top: 20rem;
+    margin-top: 80%;
   }
   #hero p {
     margin: 10px 18px;
@@ -527,7 +531,7 @@ section {
 /* Estilos para ícones */
 .skill .fab,
 .skill .fas {
-  font-size: 1.6em; 
+  font-size: 1.6em;
   margin-right: 12px; /* Adiciona margem à direita do ícone */
 }
 
@@ -599,7 +603,6 @@ section {
   transition: width 0.9s;
 }
 
-
 .resume .resume-title {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -650,7 +653,7 @@ section {
 .portfolio .portfolio-wrap::before {
   position: absolute;
   content: "";
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.87);
 }
 .portfolio .portfolio-item {
   margin-bottom: 5px;
@@ -782,6 +785,7 @@ section {
   flex-direction: column;
   margin-right: -700px;
 }
+
 .contact .info {
   width: 100%;
   height: 100%;
@@ -792,6 +796,9 @@ section {
 #footer {
   width: 100%;
   background: url("../img/footer-bg.jpeg") top left 80%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #afa7e0;
   font-size: 15px;
   text-align: center;
@@ -862,9 +869,3 @@ section {
     #a999e2
   );
 }
-#footer img {
-  margin-right: 0.2vw;
-  margin-left: -1%;
-  margin-bottom: 0.1em;
-}
-
