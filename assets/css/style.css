@@ -524,6 +524,15 @@ section {
 .about .content ul strong {
   margin-right: 10px;
 }
+
+.about .content ul a {
+  border-bottom: 1px solid #a999e2;
+}
+
+.about .content a:hover {
+  border: none;
+}
+
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -775,6 +784,16 @@ section {
   font-size: 15px;
   color: #b0bac5;
 }
+
+.contact .info p a {
+  border-bottom: 1px solid #a999e2;
+}
+
+
+.contact .info p a:hover {
+  border: none;
+}
+
 .contact .info .address i,
 .contact .info .email i,
 .contact .info .phone i {
